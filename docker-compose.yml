@@ -2,7 +2,7 @@ version: '3.8'
 services:
   front:
     build: ./ #buildするdockerfileの位置
-    container_name: node #作成するコンテナの名前
+    container_name: react_training #作成するコンテナの名前
     volumes:
       - ./front:/front
     working_dir: /front
